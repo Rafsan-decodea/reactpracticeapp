@@ -2,6 +2,7 @@ import React from 'react'
 import clasess from './builder.module.css';
 import Items from './iteams/items';
 import TotalPrice from './totalprice/totalprice';
+import Modal from './modal/modal';
 
 function builder() {
     return (
@@ -22,6 +23,10 @@ function builder() {
                     Add to Cart
                 </button>
             </div>
+            <Modal>
+                Hello Modal
+
+            </Modal>
         </div>
     )
 }

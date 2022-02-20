@@ -8,7 +8,7 @@ const Header = () => {
         <header>
             <div className='container'>
                 <div>
-                    <img width="100" height="100" className={classes.logo} src={logo} />
+                    <img width="100" height="100" className={classes.logo} src={logo} alt="React" />
                 </div>
                 <div class="textRight">
                     <img width="100" height="100" src={reactlogo} alt="React" className={classes.reactLogo} />

@@ -6,6 +6,7 @@ import Body from './components/body/body';
 import Header from './components/headers/Header';
 
 
+
 class App extends Component {
   render() {
     return (
@@ -14,7 +15,7 @@ class App extends Component {
 
         <Header></Header>
         <Body></Body>
-
+        
 
         <Footer></Footer>
 
