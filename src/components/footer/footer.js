@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import clasess from './footer.module.css';
 
 const footer = () => {

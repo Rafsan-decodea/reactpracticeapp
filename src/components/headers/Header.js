@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import classes from './Header.module.css';
 import logo from '../../assets/images/logo.svg';
 import reactlogo from '../../assets/images/react.svg';
@@ -8,10 +8,11 @@ const Header = () => {
         <header>
             <div className='container'>
                 <div>
-                    <img className={classes.logo} src={logo} />
+                    <img width="100" height="100" className={classes.logo} src={logo} />
                 </div>
                 <div class="textRight">
-                    <img src={reactlogo} alt="React" className={classes.reactLogo} /><strong>React</strong>
+                    <img width="100" height="100" src={reactlogo} alt="React" className={classes.reactLogo} />
+                    <strong>React</strong>
                 </div>
             </div>
 
