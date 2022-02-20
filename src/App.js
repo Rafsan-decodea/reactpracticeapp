@@ -16,7 +16,7 @@ class App extends Component {
         <Body></Body>
         <Footer></Footer>
 
-      <p>HellWorld</p>
+      
 
       </Layout>
 
