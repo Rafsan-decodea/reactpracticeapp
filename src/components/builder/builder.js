@@ -1,6 +1,8 @@
 import React from 'react'
 import clasess from './builder.module.css';
 import Items from './iteams/items';
+import TotalPrice from './totalprice/totalprice';
+
 function builder() {
     return (
         <div>
@@ -11,6 +13,7 @@ function builder() {
                 <Items></Items>
 
                 {/* <!-- total price start --> */}
+                <TotalPrice></TotalPrice>
 
                 {/* total price */}
 

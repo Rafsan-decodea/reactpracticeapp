@@ -14,9 +14,10 @@ class App extends Component {
 
         <Header></Header>
         <Body></Body>
+
         <Footer></Footer>
 
-      
+
 
       </Layout>
 
